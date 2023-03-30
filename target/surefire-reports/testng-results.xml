@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="134876" started-at="2023-03-24T06:21:53Z" finished-at="2023-03-24T06:24:08Z">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.LoginEroorVlidation()[pri:0, instance:ArifAcdemy.tests.ErrorValidation@2d2ffcb7]" name="LoginEroorVlidation" class="ArifAcdemy.tests.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+      <group name="purchase">
+        <method signature="SubmitOrderTest.SubmitOrder(java.util.HashMap)[pri:0, instance:ArifAcdemy.tests.SubmitOrderTest@399c4be1]" name="SubmitOrder" class="ArifAcdemy.tests.SubmitOrderTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test name="Error Test Validtion" duration-ms="130367" started-at="2023-03-24T06:21:53Z" finished-at="2023-03-24T06:24:03Z">
+      <class name="ArifAcdemy.tests.ErrorValidation">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:ArifAcdemy.tests.ErrorValidation@2d2ffcb7]" name="launchApplication" is-config="true" duration-ms="77114" started-at="2023-03-24T06:21:53Z" finished-at="2023-03-24T06:23:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="SKIP" signature="LoginEroorVlidation()[pri:0, instance:ArifAcdemy.tests.ErrorValidation@2d2ffcb7]" name="LoginEroorVlidation" duration-ms="4960" started-at="2023-03-24T06:23:10Z" finished-at="2023-03-24T06:23:15Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email  password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email  password.]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at ArifAcdemy.tests.ErrorValidation.LoginEroorVlidation(ErrorValidation.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginEroorVlidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ArifAcdemy.tests.ErrorValidation@2d2ffcb7]" name="tearDown" is-config="true" duration-ms="592" started-at="2023-03-24T06:23:15Z" finished-at="2023-03-24T06:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:ArifAcdemy.tests.ErrorValidation@2d2ffcb7]" name="launchApplication" is-config="true" duration-ms="18445" started-at="2023-03-24T06:23:16Z" finished-at="2023-03-24T06:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="FAIL" signature="LoginEroorVlidation()[pri:0, instance:ArifAcdemy.tests.ErrorValidation@2d2ffcb7]" name="LoginEroorVlidation" duration-ms="2375" started-at="2023-03-24T06:23:34Z" finished-at="2023-03-24T06:23:36Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email  password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email  password.]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at ArifAcdemy.tests.ErrorValidation.LoginEroorVlidation(ErrorValidation.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginEroorVlidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ArifAcdemy.tests.ErrorValidation@2d2ffcb7]" name="tearDown" is-config="true" duration-ms="292" started-at="2023-03-24T06:23:38Z" finished-at="2023-03-24T06:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:ArifAcdemy.tests.ErrorValidation@2d2ffcb7]" name="launchApplication" is-config="true" duration-ms="16604" started-at="2023-03-24T06:23:38Z" finished-at="2023-03-24T06:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="productErrorValidtion()[pri:0, instance:ArifAcdemy.tests.ErrorValidation@2d2ffcb7]" name="productErrorValidtion" duration-ms="8063" started-at="2023-03-24T06:23:55Z" finished-at="2023-03-24T06:24:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidtion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ArifAcdemy.tests.ErrorValidation@2d2ffcb7]" name="tearDown" is-config="true" duration-ms="264" started-at="2023-03-24T06:24:03Z" finished-at="2023-03-24T06:24:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ArifAcdemy.tests.ErrorValidation -->
+    </test> <!-- Error Test Validtion -->
+    <test name="Submit Order Test" duration-ms="134876" started-at="2023-03-24T06:21:53Z" finished-at="2023-03-24T06:24:08Z">
+      <class name="ArifAcdemy.tests.SubmitOrderTest">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:ArifAcdemy.tests.SubmitOrderTest@399c4be1]" name="launchApplication" is-config="true" duration-ms="77916" started-at="2023-03-24T06:21:55Z" finished-at="2023-03-24T06:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="SubmitOrder(java.util.HashMap)[pri:0, instance:ArifAcdemy.tests.SubmitOrderTest@399c4be1]" name="SubmitOrder" duration-ms="16862" started-at="2023-03-24T06:23:13Z" data-provider="getData" finished-at="2023-03-24T06:23:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Abhishek@1, product=ZARA COAT 3, email=Kumbh@g.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ArifAcdemy.tests.SubmitOrderTest@399c4be1]" name="tearDown" is-config="true" duration-ms="288" started-at="2023-03-24T06:23:30Z" finished-at="2023-03-24T06:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:ArifAcdemy.tests.SubmitOrderTest@399c4be1]" name="launchApplication" is-config="true" duration-ms="13849" started-at="2023-03-24T06:23:30Z" finished-at="2023-03-24T06:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="SubmitOrder(java.util.HashMap)[pri:0, instance:ArifAcdemy.tests.SubmitOrderTest@399c4be1]" name="SubmitOrder" duration-ms="10648" started-at="2023-03-24T06:23:44Z" data-provider="getData" finished-at="2023-03-24T06:23:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Abhishek@1, product=ADIDAS ORIGINAL, email=Kumbha@g.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ArifAcdemy.tests.SubmitOrderTest@399c4be1]" name="tearDown" is-config="true" duration-ms="256" started-at="2023-03-24T06:23:54Z" finished-at="2023-03-24T06:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:ArifAcdemy.tests.SubmitOrderTest@399c4be1]" name="launchApplication" is-config="true" duration-ms="11002" started-at="2023-03-24T06:23:55Z" finished-at="2023-03-24T06:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="orderHstory()[pri:0, instance:ArifAcdemy.tests.SubmitOrderTest@399c4be1]" name="orderHstory" duration-ms="1797" started-at="2023-03-24T06:24:06Z" depends-on-methods="ArifAcdemy.tests.SubmitOrderTest.SubmitOrder" finished-at="2023-03-24T06:24:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHstory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ArifAcdemy.tests.SubmitOrderTest@399c4be1]" name="tearDown" is-config="true" duration-ms="253" started-at="2023-03-24T06:24:07Z" finished-at="2023-03-24T06:24:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ArifAcdemy.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
